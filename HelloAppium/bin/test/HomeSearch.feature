@@ -1,4 +1,4 @@
-#Author: jesynava@gmail.com
+#Author: your.email@your.domain.com
 #Keywords Summary :
 #Feature: List of scenarios.
 #Scenario: Business rule through list of steps with arguments.
@@ -17,16 +17,13 @@
 ## (Comments)
 #Sample Feature Definition Template
 
+Feature: Select City
 
-Feature: Hello Word
+  
+  Scenario: Search city
+    Given Launch Quikr app city
+    When The home select appear and select city
+    And  Search a city
+    Then Select the city
 
-  Scenario: Registration Flow Validation via App
-    As a user I should be able to see my google account
-    when I try to register myself in Quikr
-
-    When I launch Quikr app
-    And I choose to log in using Google
-    Then I see account picker screen with my email address "jesynava@gmail.com"
-
-
-    
+  

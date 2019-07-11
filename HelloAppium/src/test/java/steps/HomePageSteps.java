@@ -40,6 +40,7 @@ public class HomePageSteps {
 		Thread.sleep(5000);
 
 		 Assert.assertEquals(expected, "jesynava@gmail.com");
+		 home.dispose();
 
 		
 	}

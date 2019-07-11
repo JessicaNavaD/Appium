@@ -27,3 +27,6 @@ Feature: Hello Word
     When I launch Quikr app
     And I choose to log in using Google
     Then I see account picker screen with my email address "jesynava@gmail.com"
+
+
+    
